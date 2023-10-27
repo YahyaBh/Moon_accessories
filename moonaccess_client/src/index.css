@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&display=swap');
+
+
+@font-face {
+  font-family: "unisect-black";
+  src: url("../public/Fonts/Unisect_Black.ttf");
+}
+
+@font-face {
+  font-family: "Elegant-Ar";
+  src: url("../public/Fonts/Elegant-ar-bold.ttf");
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--light-color);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+
+h1, h2, h3, h4, h5, h6, p, svg, li, a {
+  color: #1e1e1e;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #1e1e1e #fff;
+}
+
+/* Chrome, Edge and Safari */
+*::-webkit-scrollbar {
+  width: 10px;
+  width: 10px;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+*::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+
+*::-webkit-scrollbar-track:hover {
+  background-color: #fff;
+}
+
+*::-webkit-scrollbar-track:active {
+  background-color: #fff;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: #1e1e1e;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #1e1e1e;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background-color: #1e1e1e;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+/* Change the white to any color */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+.scrollbar-track {
+  display: none !important; /* This will hide the scrollbar track */
+}
